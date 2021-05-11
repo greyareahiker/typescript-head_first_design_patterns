@@ -1,0 +1,5 @@
+{
+  "standard.engine": "ts-standard",
+  "standard.enable": true,
+  "standard.autoFixOnSave": true
+}
