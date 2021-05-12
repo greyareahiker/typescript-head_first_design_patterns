@@ -1,5 +1,3 @@
-interface QuackBehavior {
+export interface QuackBehavior {
   quack: VoidFunction
 }
-
-export default QuackBehavior

@@ -1,3 +1,3 @@
-import init from './MiniDuckSimulator'
+import { init } from './MiniDuckSimulator'
 
 init()

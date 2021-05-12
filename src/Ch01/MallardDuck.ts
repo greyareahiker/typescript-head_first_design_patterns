@@ -1,8 +1,8 @@
-import Duck from './Duck'
-import FlyWithWings from './FlyWithWings'
-import Quack from './Quack'
+import { Duck } from './Duck'
+import { FlyWithWings } from './FlyWithWings'
+import { Quack } from './Quack'
 
-class MallardDuck extends Duck {
+export class MallardDuck extends Duck {
   quackBehavior = new Quack()
   flyBehavior = new FlyWithWings()
 
@@ -10,5 +10,3 @@ class MallardDuck extends Duck {
     console.log('저는 물오리입니다.')
   }
 }
-
-export default MallardDuck

@@ -1,9 +1,7 @@
-import QuackBehavior from './QuackBehavior'
+import { QuackBehavior } from './QuackBehavior'
 
-class Quack implements QuackBehavior {
+export class Quack implements QuackBehavior {
   public quack (): void {
     console.log('꽥')
   }
 }
-
-export default Quack
