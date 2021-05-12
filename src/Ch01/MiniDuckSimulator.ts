@@ -3,5 +3,10 @@ import MallardDuck from './MallardDuck'
 
 const mallard: Duck = new MallardDuck()
 
-mallard.performQuack()
-mallard.performFly()
+const init = (): void => {
+  console.log('start ch1')
+  mallard.performQuack()
+  mallard.performFly()
+}
+
+export default init
