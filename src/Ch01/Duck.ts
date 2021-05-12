@@ -7,23 +7,23 @@ export abstract class Duck {
 
   abstract display (): void
 
-  public performFly (): void {
+  performFly (): void {
     this.flyBehavior.fly()
   }
 
-  public performQuack (): void {
+  performQuack (): void {
     this.quackBehavior.quack()
   }
 
-  public swim (): void {
+  swim (): void {
     console.info('모든 오리는 물에 뜹니다. 가짜 오리도 뜨죠.')
   }
 
-  public setFlyBehavior (fb: FlyBehavior): void {
+  setFlyBehavior (fb: FlyBehavior): void {
     this.flyBehavior = fb
   }
 
-  public setQuackBehavior (qb: QuackBehavior): void {
+  setQuackBehavior (qb: QuackBehavior): void {
     this.quackBehavior = qb
   }
 }

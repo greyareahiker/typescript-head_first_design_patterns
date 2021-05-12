@@ -1,7 +1,7 @@
 import { QuackBehavior } from './QuackBehavior'
 
 export class Squeak implements QuackBehavior {
-  public quack (): void {
+  quack (): void {
     console.log('삑')
   }
 }

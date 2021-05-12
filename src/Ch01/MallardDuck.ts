@@ -6,7 +6,7 @@ export class MallardDuck extends Duck {
   quackBehavior = new Quack()
   flyBehavior = new FlyWithWings()
 
-  public display (): void {
+  display (): void {
     console.log('저는 물오리입니다.')
   }
 }
