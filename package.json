@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start_ch01": "node build/Ch01/MiniDuckSimulator.js"
   },
   "repository": {
     "type": "git",
